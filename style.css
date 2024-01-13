@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    transition: background-color 0.3s ease; /* Add a transition effect for background color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Set header background color */
+}
+
+h1 {
+    margin: 0;
+    font-weight: bold; /* Make the header text bold */
+}
+
+#container {
+    display: flex;
+}
+
+#movie-list {
+    flex: 1;
+    background-color: #333; /* Set movie list background color */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#movie-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#movie-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #555; /* Set background color for each movie list item */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a transition effect for background color */
+}
+
+#movie-list li:hover {
+    background-color: #777; /* Change background color on hover */
+}
+
+#movie-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #333; /* Set movie details background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#available-tickets {
+    margin: 0;
+}
+
+/* Remaining styles... */
