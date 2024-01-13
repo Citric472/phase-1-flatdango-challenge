@@ -10,3 +10,6 @@ Flatdango is a simple web application that allows users to explore and purchase 
 - Users can purchase a ticket for a movie, with the number of available tickets decreasing on the frontend.
 - No persistence is needed for ticket purchases.
 
+## Prerequisite Data
+
+Use the provided `db.json` file for your local server.
